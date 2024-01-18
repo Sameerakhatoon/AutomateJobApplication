@@ -20,6 +20,8 @@ A Python script that automates the job application process
 
 - [Usage](#usage)
 
+- [Disclaimer](#Disclaimer)
+
   
 
 ## Introduction
@@ -62,8 +64,8 @@ This script uses Playwright to automate the job application process on Dice. It 
 
 1. Clone this repository:   
    ```
-   git clone https://github.com/Sameerakhatoon/automateDice.git
-   cd automateDice
+   git clone https://github.com/Sameerakhatoon/AutomateJobApplication.git
+   cd AutomateJobApplication
    ```
 
 2. Install the required Python libraries:
@@ -73,7 +75,7 @@ pip install playwright
 
 3. Install Chromium browser (required by Playwright):
 ```
-python -m playwright install
+Chromium browser (automatically installed by Playwright)
 ```
   
 
@@ -86,6 +88,11 @@ python -m playwright install
     `search_keywords = '".net developer"'  # Keywords for the search custom_user_agent = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.288 Mobile Safari/537.36"`
     
 3. Run the script:    
-    `python dice_job_bot.py`
+    `python AutomateDice.py`
     
 4. The script will log in, perform the job search, and automatically apply to multiple jobs. It will save job titles to a file named `job_titles.txt`.
+
+
+## Disclaimer
+
+This script is intended for educational and personal use only. Use it responsibly and adhere to ethical standards when automating interactions with websites.
